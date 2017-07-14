@@ -1,0 +1,66 @@
+{
+  "draggables": {
+    "however": {
+      "content": "However",
+      "reuse": false,
+      "feedback": {
+        "contrast": "Never used since the droppable defines feedback for this draggable.",
+        "addition": "There is no contrast between these sentences.",
+        "consequence": "There is no contrast between these sentences."
+      }
+    },
+    "incontrast": {
+      "content": "In contrast"
+    },
+    "inaddition": {
+      "content": "In addition"
+    },
+    "additionally": {
+      "content": "Additionally"
+    },
+    "furthermore": {
+      "content": "Furthermore"
+    },
+    "therefore": {
+      "content": "Therefore"
+    },
+    "thus": {
+      "content": "Thus"
+    }
+  },
+  "droppables": {
+    "contrast": {
+      "feedback": {
+        "however": "Correct, however shows contrast between the two sentences.",
+        "incontrast": "In contrast does not fit here well even though there is a contrast between the sentences.",
+        "therefore": "This sentence is contrasting the previous one, not providing consequences.",
+        "thus": "This sentence is contrasting the previous one, not providing consequences.",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "however"
+    },
+    "addition": {
+      "feedback": {
+        "inaddition": "In addition, additionally, and furthermore all show that the sentence adds something to the previous sentence.",
+        "additionally": "In addition, additionally, and furthermore all show that the sentence adds something to the previous sentence.",
+        "furthermore": "In addition, additionally, and furthermore all show that the sentence adds something to the previous sentence.",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": ["inaddition", "additionally", "furthermore"]
+    },
+    "consequence": {
+      "feedback": {
+        "therefore": "Both therefore and thus show that this sentence presents a consequence from the previous sentences.",
+        "thus": "Both therefore and thus show that this sentence presents a consequence from the previous sentences.",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": ["therefore", "thus"]
+    }
+  },
+  "combinedfeedback": [
+    {
+      "combo": [["however", "contrast"], ["inaddition", "addition"]],
+      "feedback": "Combo feedback: \"however\" and \"in addition\" work well together!"
+    }
+  ]
+}

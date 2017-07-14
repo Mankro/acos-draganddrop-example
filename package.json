@@ -1,0 +1,15 @@
+{
+  "name": "acos-draganddrop-example",
+  "version": "0.0.1",
+  "description": "Example content package for the ACOS server drag-and-drop content type.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@version.aalto.fi:riekkim1/acos-draganddrop-example.git"
+  },
+  "author": "Markku Riekkinen",
+  "license": "MIT"
+}
