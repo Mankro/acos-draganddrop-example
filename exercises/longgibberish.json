@@ -1,0 +1,126 @@
+{
+  "draggables": {
+    "first": {
+      "content": "first",
+      "reuse": false
+    },
+    "second": {
+      "content": "second",
+      "reuse": false
+    },
+    "third": {
+      "content": "third",
+      "reuse": false
+    },
+    "fourth": {
+      "content": "fourth",
+      "reuse": false
+    },
+    "fifth": {
+      "content": "fifth",
+      "reuse": false
+    },
+    "sixth": {
+      "content": "sixth",
+      "reuse": false
+    },
+    "seventh": {
+      "content": "seventh",
+      "reuse": false
+    },
+    "eighth": {
+      "content": "eighth",
+      "reuse": false
+    },
+    "ninth": {
+      "content": "ninth",
+      "reuse": false
+    },
+    "tenth": {
+      "content": "tenth",
+      "reuse": false
+    }
+  },
+  "droppables": {
+    "1": {
+      "feedback": {
+        "first": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "first"
+    },
+    "2": {
+      "feedback": {
+        "second": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "second"
+    },
+    "3": {
+      "feedback": {
+        "third": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "third"
+    },
+    "4": {
+      "feedback": {
+        "fourth": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "fourth"
+    },
+    "5": {
+      "feedback": {
+        "fifth": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "fifth"
+    },
+    "6": {
+      "feedback": {
+        "sixth": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "sixth"
+    },
+    "7": {
+      "feedback": {
+        "seventh": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "seventh"
+    },
+    "8": {
+      "feedback": {
+        "eighth": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "eighth"
+    },
+    "9": {
+      "feedback": {
+        "ninth": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "ninth"
+    },
+    "10": {
+      "feedback": {
+        "tenth": "Correct",
+        "DEFAULT": "Incorrect."
+      },
+      "correct": "tenth"
+    }
+  },
+  "combinedfeedback": [
+    {
+      "combo": [["first", "1"], ["second", "2"]],
+      "feedback": "Combo: great, you got the first two right!"
+    },
+    {
+      "combo": [["first", "2"], ["second", "1"]],
+      "feedback": "Combo: ouch, you can't get even the first ones correct..."
+    }
+  ]
+}
