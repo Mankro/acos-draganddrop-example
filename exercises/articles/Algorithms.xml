@@ -1,0 +1,11 @@
+<div>
+
+<h3>Add indefinite and definite articles into the text below by dragging. Drag the "empty set" to the holes that should be left empty.</h3>
+
+<p>In {w:} mathematics and {w:} computer science, {an:} algorithm is {a:} self-contained sequence of {w:} actions to be performed. {w:} Algorithms perform {w:} calculation, {w:} data processing, and/or {w:} automated reasoning tasks.</p>
+
+<p>{An:} algorithm is {an:} effective method that can be expressed within {a:} finite amount of {w:} space and time [1] and in {a:} well-defined formal language [2] for calculating {a:} function.[3] Starting from {an:} initial state and {w:} initial input (perhaps empty), [4] {the:} instructions describe {a:} computation that, when executed, proceeds through {a:} finite [5] number of well-defined successive states, eventually producing {w:} "output"[6] and terminating at {a:} final ending state. {The:} transition from one state to {the:} next is not necessarily deterministic; some algorithms, known as {w:} randomized algorithms, incorporate {w:} random input [7].</p>
+
+<p>{The:} concept of {w:} algorithm has existed for centuries; however, {a:} partial formalization of what would become {the:} modern algorithm began with {w:} attempts to solve {the:} Entscheidungsproblem (the "decision problem") posed by David Hilbert in {w:} 1928.</p>
+
+</div>

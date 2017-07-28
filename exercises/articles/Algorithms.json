@@ -1,0 +1,72 @@
+{
+  "draggables": {
+    "a": {
+      "content": "a"
+    },
+    "A": {
+      "content": "A"
+    },
+    "an": {
+      "content": "an"
+    },
+    "An": {
+      "content": "An"
+    },
+    "the": {
+      "content": "the"
+    },
+    "The": {
+      "content": "The"
+    },
+    "empty": {
+      "content": "&empty;",
+      "reveal": {
+        "replace": "&nbsp;"
+      }
+    }
+  },
+  "droppables": {
+    "w": {
+      "correct": "empty",
+      "feedback": {
+        "empty": "Correct! No article should be used here.",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "a": {
+      "correct": "a",
+      "feedback": {
+        "a": "Correct! An indefinite article is needed here.",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "an": {
+      "correct": "an",
+      "feedback": {
+        "an": "Correct! An indefinite article is needed here.",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "An": {
+      "correct": "An",
+      "feedback": {
+        "An": "Correct! An indefinite article is needed here.",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "the": {
+      "correct": "the",
+      "feedback": {
+        "the": "Correct! A definite article is needed here because the noun is unique.",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "The": {
+      "correct": "The",
+      "feedback": {
+        "The": "Correct! A definite article is needed here because the noun is unique.",
+        "DEFAULT": "Incorrect"
+      }
+    }
+  }
+}
