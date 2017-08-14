@@ -61,6 +61,11 @@
     {
       "combo": [["however", "contrast"], ["inaddition", "addition"]],
       "feedback": "Combo feedback: \"however\" and \"in addition\" work well together!"
+    },
+    {
+      "combo": [["furthermore", 1], ["thus", 2]],
+      "feedback": "Combo feedback: \"furthermore\" and \"thus\" set with droppable IDs",
+      "useDroppableId": true
     }
   ]
 }
