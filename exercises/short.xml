@@ -1,3 +1,25 @@
+<html>
+<head>
+  <style>
+  /* CSS rules for the extra draggable HTML classes defined in the JSON payload */
+  .blue {
+    color: deepskyblue;
+    font-weight: bold;
+    border: medium dashed darkgoldenrod !important;
+  }
+  .purple {
+    color: purple;
+    background-color: pink !important;
+  }
+  .lime {
+    color: limegreen;
+    background-color: whitesmoke !important;
+    border: medium dotted gold !important;
+  }
+  </style>
+</head>
+<body>
+
 <div>
   <h2>Drag and drop the transitional words onto the holes in the text</h2>
   <p>Algorithm X is effective at sorting strings. {contrast:}, it is less effective
@@ -7,3 +29,6 @@
   {consequence:}, algorithm X has not been widely included in basic courses.
   </p>
 </div>
+
+</body>
+</html>

@@ -3,6 +3,7 @@
     "however": {
       "content": "However",
       "reuse": false,
+      "htmlclass": "purple",
       "feedback": {
         "contrast": "Never used since the droppable defines feedback for this draggable.",
         "addition": "There is no contrast between these sentences.",
@@ -13,7 +14,8 @@
       "content": "In contrast"
     },
     "inaddition": {
-      "content": "In addition"
+      "content": "In addition",
+      "htmlclass": "blue"
     },
     "additionally": {
       "content": "Additionally"
@@ -25,7 +27,8 @@
       "content": "Therefore"
     },
     "thus": {
-      "content": "Thus"
+      "content": "Thus",
+      "htmlclass": "lime"
     }
   },
   "droppables": {
