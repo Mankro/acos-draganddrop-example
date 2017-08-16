@@ -1,0 +1,63 @@
+{
+  "draggables": {
+    "banana": {
+      "content": "<img src=\"/static/draganddrop-example/banana.png\" alt=\"banana\">",
+      "reuse": false,
+      "feedback": {
+        "fruit": "Correct, banana is a fruit!",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "strawberry": {
+      "content": "<img src=\"/static/draganddrop-example/strawberry.png\" alt=\"strawberry\">",
+      "reuse": false,
+      "feedback": {
+        "berry": "Correct, strawberry is a berry!",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "pineapple": {
+      "content": "<img src=\"/static/draganddrop-example/pineapple.png\" alt=\"pineapple\">",
+      "reuse": false,
+      "feedback": {
+        "fruit": "Correct, pineapple is a fruit!",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "cucumber": {
+      "content": "<img src=\"/static/draganddrop-example/cucumber.png\" alt=\"cucumber\">",
+      "reuse": false,
+      "feedback": {
+        "vegetable": "Correct, cucumber is a vegetable!",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "apple": {
+      "content": "<img src=\"/static/draganddrop-example/apple.png\" alt=\"apple\">",
+      "reuse": false,
+      "feedback": {
+        "fruit": "Correct, apple is a fruit!",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "carrot": {
+      "content": "<img src=\"/static/draganddrop-example/carrot.png\" alt=\"carrot\">",
+      "reuse": false,
+      "feedback": {
+        "vegetable": "Correct, carrot is a vegetable!",
+        "DEFAULT": "Incorrect"
+      }
+    }
+  },
+  "droppables": {
+    "fruit": {
+      "correct": ["banana", "pineapple", "apple"]
+    },
+    "vegetable": {
+      "correct": ["cucumber", "carrot"]
+    },
+    "berry": {
+      "correct": "strawberry"
+    }
+  }
+}

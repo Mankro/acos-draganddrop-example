@@ -1,0 +1,41 @@
+<html>
+<head>
+  <style>
+  table, th, td {
+    border: medium solid black;
+    border-collapse: collapse;
+  }
+  img {
+    max-height: 100px;
+    width: auto;
+  }
+  .droppable {
+    float: left;
+  }
+  </style>
+</head>
+<body>
+
+<h1>Drag and drop the vegetables, berries, and fruit into the correct slots</h1>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Vegetables</th>
+      <th colspan="1">Berries</th>
+      <th colspan="3">Fruit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{vegetable:}</td>
+      <td>{vegetable:}</td>
+      <td>{berry:}</td>
+      <td>{fruit:}</td>
+      <td>{fruit:}</td>
+      <td>{fruit:}</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
