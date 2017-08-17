@@ -5,12 +5,19 @@
     border: medium solid black;
     border-collapse: collapse;
   }
+  table {
+    margin-bottom: 0.5em;
+  }
   img {
     max-height: 100px;
     width: auto;
   }
   .droppable {
+    /* hack: droppables are inside table cells and when they are empty,
+      they do not fill the whole available vertical space without hacks */
     float: left;
+    height: 100px;
+    min-width: 90%;
   }
   </style>
 </head>
