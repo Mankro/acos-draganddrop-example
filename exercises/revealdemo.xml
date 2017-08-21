@@ -1,0 +1,48 @@
+<div>
+<h1>Drag and drop the words to the correct holes</h1>
+<small>This exercise demonstrates different reveal effects.</small>
+
+<ol>
+<li>By default, the draggable content replaces the droppable content: {first:}.
+{first: Drag onto this text}.
+But since the reveal effects are defined in the draggables,
+you should answer correctly on the first try or something else may happen.
+The other incorrect draggables showcase different reveal effects. This applies
+to all of these examples.
+</li>
+
+<li>The value false disables the reveal effect.
+{falsetarget: Nothing will happen to this text when you answer correctly on the first try.}
+</li>
+
+<li>Replace with any value. You may define any value for the replace effect
+instead of just using the draggable content: {anyreplace: something good}.
+</li>
+
+<li>Append: the reveal effect may append to the end of the current droppable content.
+{append: Imagine that you must categorize sentences in a longer text with their functions.}
+</li>
+
+<li>Prepend: the reveal effect may prepend to the start of the current droppable content.
+{prepend: Imagine that you must categorize sentences in a longer text with their functions.}
+</li>
+
+<li>You may use different reveal effects for correct and incorrect answers.
+Now the correct answer replaces the droppable content here and if you drag
+the same draggable to other droppables for which it is the incorrect answer,
+it will use the default effect of replacing with the draggable content.
+{replacecorrect: something to replace with the value defined in the correct answer}
+</li>
+
+<li>Now the correct answer prepends something to the droppable, and the same
+draggable appends something to the other draggables (for which it is incorrect).
+{prependcorrect: This text shall not vanish.}
+</li>
+
+<li>Now the correct answer appends something and the same draggable has no
+reveal effect as the incorrect answer in other droppables.
+{appendcorrect: Something should be appended here.}
+</li>
+</ol>
+
+</div>

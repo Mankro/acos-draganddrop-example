@@ -1,0 +1,109 @@
+{
+  "draggables": {
+    "1": {
+      "content": "1 default example",
+      "feedback": {
+        "first": "Correct",
+        "DEFAULT": "Incorrect"
+      }
+    },
+    "2": {
+      "content": "2 false reveal",
+      "feedback": {
+        "falsetarget": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "reveal": false
+    },
+    "3": {
+      "content": "3 replace",
+      "feedback": {
+        "anyreplace": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "reveal": {
+        "replace": "anything better"
+      }
+    },
+    "4": {
+      "content": "4 append",
+      "feedback": {
+        "append": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "reveal": {
+        "append": "Topic sentence"
+      }
+    },
+    "5": {
+      "content": "5 prepend",
+      "feedback": {
+        "prepend": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "reveal": {
+        "prepend": "Topic sentence"
+      }
+    },
+    "6": {
+      "content": "6 correct replace",
+      "feedback": {
+        "replacecorrect": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "revealCorrect": {
+        "replace": "new content"
+      }
+    },
+    "7": {
+      "content": "7 correct prepend",
+      "feedback": {
+        "prependcorrect": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "revealCorrect": {
+        "prepend": "amazing beginning"
+      },
+      "revealWrong": {
+        "append": "this should not be here"
+      }
+    },
+    "8": {
+      "content": "8 correct append",
+      "feedback": {
+        "appendcorrect": "Correct",
+        "DEFAULT": "Incorrect"
+      },
+      "revealCorrect": {
+        "append": "great ending"
+      },
+      "revealWrong": false
+    }
+  },
+  "droppables": {
+    "first": {
+      "correct": "1"
+    },
+    "falsetarget": {
+      "correct": "2"
+    },
+    "anyreplace": {
+      "correct": "3"
+    },
+    "append": {
+      "correct": "4"
+    },
+    "prepend": {
+      "correct": "5"
+    },
+    "replacecorrect": {
+      "correct": "6"
+    },
+    "prependcorrect": {
+      "correct": "7"
+    },
+    "appendcorrect": {
+      "correct": "8"
+    }
+  }
+}
