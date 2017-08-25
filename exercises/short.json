@@ -70,5 +70,11 @@
       "feedback": "Combo feedback: \"furthermore\" and \"thus\" set with droppable IDs",
       "useDroppableId": true
     }
-  ]
+  ],
+  "finalcomment": {
+    "common": "This example showed some of the features of this content type.",
+    "50": "You got only 50% or less of the available points. You can do better!",
+    "75": "Good job!",
+    "100": "Great, you got everything correct!"
+  }
 }
