@@ -5,7 +5,7 @@ module.exports = DraganddropExample =
       'description': 'Example exercises for the drag-and-drop content type',
       'author': 'Markku Riekkinen',
       'license': 'MIT',
-      'version': '0.0.1',
+      'version': '0.3.0',
       'url': '',
       'teaserContent': [],
       'contents': {},
