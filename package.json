@@ -2,13 +2,18 @@
   "name": "acos-draganddrop-example",
   "version": "0.3.2",
   "description": "Example content package for the ACOS server drag-and-drop content type.",
-  "main": "index.coffee",
+  "main": "index.js",
+  "devDependencies": {
+    "coffeescript": "^2.3.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coffee": "coffee --compile --bare --no-header index.coffee",
+    "prepare": "npm run coffee"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:acos-server/acos-draganddrop-example.git"
+    "url": "https://github.com/acos-server/acos-draganddrop-example.git"
   },
   "author": "Markku Riekkinen",
   "license": "MIT"
