@@ -1,6 +1,6 @@
 {
   "name": "acos-draganddrop-example",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Example content package for the ACOS server drag-and-drop content type.",
   "main": "index.js",
   "devDependencies": {
